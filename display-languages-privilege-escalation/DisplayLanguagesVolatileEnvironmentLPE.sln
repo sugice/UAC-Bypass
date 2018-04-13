@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisplayLanguagesVolatileEnvironmentLPE", "DisplayLanguagesVolatileEnvironmentLPE\DisplayLanguagesVolatileEnvironmentLPE.vcxproj", "{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76CF9D76-F75E-421D-98FF-F802365CE377} = {76CF9D76-F75E-421D-98FF-F802365CE377}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisplayLanguagesInject", "DisplayLanguagesInject\DisplayLanguagesInject.vcxproj", "{76CF9D76-F75E-421D-98FF-F802365CE377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Debug|x64.ActiveCfg = Debug|x64
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Debug|x64.Build.0 = Debug|x64
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Debug|x86.Build.0 = Debug|Win32
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Release|x64.ActiveCfg = Release|x64
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Release|x64.Build.0 = Release|x64
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Release|x86.ActiveCfg = Release|Win32
+		{E7ECB2A6-713B-4D74-99A6-247A147D4FE9}.Release|x86.Build.0 = Release|Win32
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Debug|x64.ActiveCfg = Debug|x64
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Debug|x64.Build.0 = Debug|x64
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Debug|x86.ActiveCfg = Debug|Win32
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Debug|x86.Build.0 = Debug|Win32
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Release|x64.ActiveCfg = Release|x64
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Release|x64.Build.0 = Release|x64
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Release|x86.ActiveCfg = Release|Win32
+		{76CF9D76-F75E-421D-98FF-F802365CE377}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
